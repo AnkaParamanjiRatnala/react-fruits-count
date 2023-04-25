@@ -1,0 +1,63 @@
+.bg-container {
+  background-color: #ffd569;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #000000;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+  margin: 30px;
+}
+.card-container {
+  background-color: #ffffff;
+  width: 80%;
+  height: 80%;
+  margin: 20px;
+}
+.fruits-container {
+  display: flex;
+  justify-content: space-around;
+}
+.fruit-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.count-color {
+  color: #ffd569;
+}
+.image {
+  height: 300px;
+  width: 250px;
+  padding-bottom: 30px;
+}
+.click-btn {
+  background-color: #007bff;
+  border-radius: 5px;
+  border: none;
+  color: #ffffff;
+  font-family: 'Roboto';
+  height: 30px;
+  width: 100px;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 767px) {
+  .fruits-container {
+    flex-direction: column;
+  }
+  .heading {
+    font-size: 25px;
+  }
+  .image {
+    height: 200px;
+    width: 200px;
+  }
+}
